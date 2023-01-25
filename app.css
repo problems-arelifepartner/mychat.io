@@ -356,3 +356,76 @@ Span.Extension{
   Margin-Left:6px;
 }
 /*
+@Media Screen And (Max-Width:600px){
+
+  .Contact-Area{
+
+    Display:none;
+
+  }
+
+  .Info-Area{
+
+    Display:none;
+
+  }
+
+  .Message-Area{
+
+    Width:calc(100% - 300px);
+
+  }
+
+}*/
+
+@Media Screen And (Max-Width:1050px){
+
+  .Info-Area{
+
+    Display:none;
+
+    
+
+  }
+
+  .Message-Area{
+
+    Width:calc(100% - 300px);
+
+  }
+
+}
+
+@Media Screen And (Max-Width:850px){
+
+  .Contacts-Area{
+
+    Display:none;
+
+  }
+
+  .Message-Area{
+
+    Width:calc(100% - 50px);
+
+  }
+
+  .Left-Area{
+
+    Width:50px;
+
+  }
+
+  
+
+}
+
+@Media Screen And (Max-Width:575px){
+
+  .Right{
+
+    Display:none;
+
+  }
+
+}
