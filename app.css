@@ -1,0 +1,172 @@
+*{
+  Box-Sizing:border-Box;
+  Outline:none;
+}
+Body,Html{
+  Margin:0 Auto;
+  Height:100%;
+  Color:#FFFFFF;
+  Font-Family: 'Lato', Sans-Serif;
+}
+H2,P{
+  Margin:0;
+}
+P{
+  Font-Size:14px;
+  Color:#B5B5B5;
+}
+.Jotform-Page{
+  Height:100%;
+  Display:flex;
+}
+.Left-Area{
+  Display:flex;
+  Background-Image:url("Https://I.Ibb.Co/S7ZrZnG/Image.Png");
+  Background-Repeat: No-Repeat;
+  Background-Attachment: Fixed;
+  Height:100%;
+  Width:300px;
+}
+.Icon-Area{
+  Display:flex;
+  Flex-Direction:column;
+  Justify-Content:space-Between;
+  Background-Color: Rgba(0,0,0,.88);
+  Width:50px;
+  Height:100%;
+  Padding:20px 5px 0 5px;
+  Align-Items:center;
+}
+.Contacts-Area{
+  Background-Color:rgba(0,0,0,.76);
+  Width:250px;
+  Height:100%;
+  Padding:30px 16px 0 20px ;
+  Overflow:auto;
+}
+.Header{
+  Display:flex;
+  Justify-Content:space-Between;
+  Align-Items:center;
+  Margin-Bottom:24px;
+}
+.Threads {
+  Display:flex;
+  Margin-Bottom:24px;
+  Font-Size:14px;
+}
+.Icon{
+ /* Margin-Right:5px;*/
+}
+.Channel , .Friends{
+  Display:flex;
+  Justify-Content:space-Between;
+  Font-Size:14px;
+  Padding:5px;
+}
+.Channel-List{
+  Padding-Left:6px;
+}
+.Channel-Name{
+  Display:flex;
+  Padding:5px;
+  Font-Size:14px;
+}
+.Selected{
+  Background:rgb(255,255,255,0.2);
+  Border-Radius:4px;
+}
+.Selected > P{
+  Color:rgb(255,255,255);
+}
+::-Webkit-Scrollbar {
+  Width: 6px;
+  Border-Radius:10px;
+}
+::-Webkit-Scrollbar-Track{
+  Background:none;
+}
+::-Webkit-Scrollbar-Thumb {
+  Background: #B5B5B5; 
+  Border-Radius: 10px;
+}
+.Friend-List{
+  Padding:5px;
+}
+.Friend-Info{
+  Display:flex;
+  Align-Items:center;
+}
+.Friend-Info *{
+  Margin-Right:8px;
+  Margin-Bottom:8px;
+}
+.Photo{
+  Border-Radius:4px;
+  Width:34px;
+  Height:34px;
+}
+.Message-Area{
+  Height:100%;
+  Width:calc(100% - 500px);
+}
+.Message-Header{
+  Height:80px;
+  Border-Bottom:1px Solid #Ddd;
+  Padding:30px 5px 5px 16px;
+}
+.Message-Wrapper{
+  Display:flex;
+  Justify-Content:space-Between;
+}
+.Left > H2{
+  Color:black;
+  Font-Size:16px;
+}
+.Left , .Right{
+  Display:flex;
+  Align-Items:center;
+}
+.Right *{
+  Margin-Right:5px;
+}
+Input{
+  Padding:6px;
+  Border-Radius:4px;
+  Border:1px Solid #Ddd;
+  Margin:0 20px;
+}
+Button{
+  Background:none;
+  Border:none;
+}
+.Notification{
+  Display:flex;
+  Backround:rgb(255,255,255);
+}
+.Red-Dot{
+  Margin-Top:-10px;
+  Margin-Left:-4px;
+}
+.Search-Icon{
+  Margin-Left:-30px;
+}
+.Wrapper{
+  Display:flex;
+  Align-Items:center;
+  Margin-Left:20px;
+}
+.Info > H2{
+  Color:black;
+  Font-Size:14px;
+  Margin-Right:5px;
+}
+.Info{
+  Display:flex;
+}
+.Container{
+  Display:flex;
+}
+.Message{
+  Color:rgb(0,0,0);
+}
