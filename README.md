@@ -1,2 +1,0 @@
-# mychat.io
-Chat
