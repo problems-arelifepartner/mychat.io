@@ -170,3 +170,189 @@ Button{
 .Message{
   Color:rgb(0,0,0);
 }
+Chat-Break{
+  Position:relative;
+  Display:flex;
+  Align-Items:center;
+  Justify-Content:center;
+  Margin-Bottom:10px;
+}
+.Line{
+  Width:100%;
+  Border-Bottom:1px Solid #Ddd;
+  Border-Top:none;
+  Border-Right:none;
+  Border-Left:none;
+}
+.Date-Info{
+  Position:absolute;
+  Background:white;
+}
+.Chat-Area{
+  Padding:16px;
+}
+.Container > .Photo{
+  Margin-Right:10px;
+}
+.Container{
+  Padding:0 0 10px 0;
+}
+Span.Extension{
+  Color:rgb(53,119,239);
+}
+.Content-Image{
+  Max-Width:100%;
+}
+.Content{
+}
+.Attachment{
+  Position:relative;
+  Max-Width:260px;
+  Margin:14px 0;
+}
+.Content-Image{
+  Border-Radius:4px;
+}
+.Reaction{
+  Display:flex;
+  Position:absolute;
+  Border-Radius:4px;
+  Padding: 5px 10px;
+  Width:50px;
+  Height:30px;
+  Background:#FFFFFF;
+  Box-Shadow: 0px 2px 8px Rgba(0, 0, 0, 0.14);
+  Bottom:0;
+  Right:0;
+}
+.Icon{
+  Width:16px;
+  Height:16px;
+  Bottom:0;
+}
+.Reaction > P{
+  Color:black;
+}
+.Message-Area{
+  Height:100%;
+  Display:flex;
+  Flex-Direction:column;
+}
+.Chat-Area{
+  Flex:1;
+  Overflow:auto;
+  Border-Bottom:1px Solid #Ddd;
+}
+.Type-Area{
+  Display:flex;
+  Align-Items:center;
+  Justify-Content:space-Between;
+  Vertical-Align:middle;
+  Padding:10px ;
+}
+.Type-Icon{
+  Width:20px;
+  Opacity:.5;
+}
+.Type-Icon:hover{
+  Opacity:.7;
+}
+.Date-Info{
+ Padding:0 10px;
+}
+.Type-Input{
+  Border:none;
+}
+.Info-Area{
+  Flex-Shrink:0;
+  Width:200px;
+  Height:100%;
+  Background-Color:#D3D3D3;
+  Overflow:auto;
+}
+.Profile-Photo{
+  Background-Image:url("Https://Images.Unsplash.Com/Photo-1513772051905-D2acb1dc5bb1?Ixlib=Rb-1.2.1&Auto=Format&Fit=Crop&W=1534&Q=80");
+  Background-Repeat: No-Repeat;
+  Background-Position:center;
+  Background-Size:cover;
+  Height:200px;
+}
+.Info-Content{
+  Padding:14px;
+}
+.Info-Wrapper > H2{
+  Color:black;
+  Font-Size:16px;
+  Margin-Right:5px;
+}
+.Info-Header >P{
+  Color:#767676;
+}
+.Info-Header{
+  Margin-Bottom:16px;
+}
+.Info-Wrapper{
+  Display:flex;
+  Align-Items:center;
+}
+.Button-Wrapper > .Button-Message{
+  Font-Size:16px;
+  Background:#3577EF;
+  Color:#FFFFFF;
+  Border-Radius:4px;
+  Padding:5px 20px ;
+  Margin-Right:5px;
+}
+.Button-Message:hover{
+  Background:#0462BB;
+}
+.Button-Wrapper{
+  Display:flex;
+  Align-Items:center;
+}
+.Faded{
+  Color:#737373;
+}
+.Dark{
+  Color:black;
+}
+.Personal-Info{
+  Margin-Top:10px;
+}
+.Social-Icon{
+  Width:22px;
+  Heigt:20px;
+  Border-Radius:50%;
+  Background-Color:#E8E8EB;
+  Padding:2px;
+}
+.Social{
+  Display:flex;
+  Justify-Content:space-Between;
+  Width:100px;
+  Margin-Bottom:10px;
+}
+.Facebook , .Instagram{
+  Padding-Top:4px;
+}
+.Icon:hover{
+  Opacity:.7;
+}
+.Arrow{
+  Width:7px;
+}
+.Option{
+  Background:#3577EF;
+  Padding:7px 10px;
+  Border-Radius:4px;
+}
+.Option:hover{
+  Background:#0462BB;
+}
+.Threads .Icon{
+  Margin-Right:6px;
+}
+.Star{
+  Margin-Left:6px;
+}
+/*
